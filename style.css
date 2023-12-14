@@ -109,13 +109,20 @@ ul li a:hover{
     /* margin-bottom: 160%; */
     font-size: 20px;
     justify-content: space-between;
+   
+}
+.icons-positions{
     position: absolute;
     bottom: 0px;
     top: 49%;
+    width: 100%;
     left: 7%;
 }
-.icons :hover{
+.icons > *:hover{
     color: burlywood;
+}
+.icons > *{
+    cursor: pointer;
 }
 .navbar-container {
     display: flex;
